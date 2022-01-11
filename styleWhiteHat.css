@@ -1,0 +1,58 @@
+.body{
+    background-color: rgb(190, 188, 188); margin: 0px; padding: 0px;
+}
+
+.section1-div1 {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  .section1-div1 a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+  }
+
+  .section1-div1 p{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+  
+  
+  .section1-div1 a:hover {
+    background-color: #ddd;
+    color: black;
+    box-shadow: 2px 5px 16px 0px;
+}
+
+.section2{
+    width: 100%; 
+    height: 1000px; 
+    background-color: rgb(190, 188, 188); 
+}
+    .section2 h1{
+        text-align: center;
+        margin-top: 0px;
+    }
+    .section2 img{
+        width: 55%;
+        height: 460px;
+        border-radius: 5%;
+        margin-left: 320px;
+    }
+    .section2-text{
+        width: 50%;
+        height: 450px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 350px;
+    }
+    .section2 a{
+        transition: ease;
+    }

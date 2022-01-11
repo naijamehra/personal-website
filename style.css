@@ -1,0 +1,134 @@
+.body{
+     margin: 0px;
+}
+
+
+.header{
+    width: 100%; 
+    height: 650px; 
+    background-color:rgb(190, 188, 188);
+}
+
+.header img{
+    width: 100%; 
+    height: 100%; 
+}
+
+.menu{
+    width: 100%; 
+    height: 80px; 
+    background-color: rgb(190, 188, 188);
+    position: absolute;
+    top: 0px;   
+    
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{float: left; padding: 20px; transition: 3s;}
+.menu ul li:hover{
+    background-color: rgb(228, 234, 235); 
+    color: black;
+    border-radius: 10px;
+}
+
+.section1,.section2,.section3,.section4{
+    width: 100%; 
+    height: 720px; 
+}
+
+.section1{
+    background-color: rgb(190, 188, 188);
+}
+
+.section1 h1{
+    padding-top: 50px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.section1 p{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section2{
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    .section2-div1, .section2-div2, .section2-div3, .section2-div4{
+        width: 20%;
+        height: 60%;
+        background-color: rgb(155, 196, 238);
+        float: left;
+        margin: 33px;
+    }
+
+    .section2-div1 img{
+        width: 100%;
+        height: 50%;
+        
+        border-radius: 50%;
+    }
+    .section2-div1-text, .section2-div2-text, .section2-div3-text, .section2-div4-text{
+        text-align: center;
+    }
+
+    .section2-div2 img{
+        width: 100%;
+        height: 50%;
+        
+        border-radius: 50%;
+    }
+
+    .section2-div3 img{
+        width: 100%;
+        height: 50%;
+        
+        border-radius: 50%;
+    }
+
+    .section2-div4 img{
+        width: 100%;
+        height: 50%;
+        
+        border-radius: 50%;
+    }
+
+    .section2-div1-img img{ 
+        width: 100%;
+        height: 100%;
+        background-color: rgb(218, 42, 42);
+    }
+
+
+.section3{
+    background-color: gray;
+}
+
+.section3-div1, .section3-div2{
+    width: 30%;
+    height: 60%;
+    background-color: azure;
+    float: left;
+    margin: 8%;
+}
+
+.section3-div1 img, .section3-div2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.section4{
+    background-image: url("https://www.wallpaperkiss.com/wimg/b/134-1348395_big.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
